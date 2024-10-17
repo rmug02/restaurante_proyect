@@ -11,8 +11,10 @@ import { NoEncontrado } from "../../componentes/contenedor/NoEncontrado"
 export const Ruteo = ()=>{
     return(
         <Routes>
-            <Route path="/" element={<Inicio/>}/>
 
+           
+           
+            <Route path="/" element={<Inicio/>}/>
             <Route path="/mencre" element={<MenuCrear/>}/>
             <Route path="/menlis" element={<MenuListar/>}/>
             <Route path="/menadmin" element={<MenuAdmin/>}/>
