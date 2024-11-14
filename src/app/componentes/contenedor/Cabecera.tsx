@@ -6,7 +6,7 @@ export const Cabecera = () => {
     <>
       <nav
         className="navbar navbar-expand-lg"
-        style={{ backgroundColor: "#00604e" }}
+        style={{ backgroundColor: "#d16960" }}
         data-bs-theme="light"
       >
         <div className="container-fluid">
@@ -32,7 +32,7 @@ export const Cabecera = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="#">
+                <NavLink className="nav-link" to="/franqui">
                   Franquicias
                 </NavLink>
               </li>
